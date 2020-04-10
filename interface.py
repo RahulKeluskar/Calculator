@@ -48,7 +48,7 @@ class Calculator:
         #Generating buttons
         Button(master,text='=',width=11,height=3).grid(row=4,column=4,columnspan=2)
         Button(master,text='AC',width=5,height=3).grid(row=1,column=4)
-        Button(master,text='C',width=,height=3).grid(row=1, column=4)
+        Button(master,text='C',width=5,height=3).grid(row=1, column=4)
 
 root = Tk()
 obj = Calculator(root)
